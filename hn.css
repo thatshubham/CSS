@@ -1,0 +1,77 @@
+/* ====================================================================
+ * CSS for hackernews client https://hn.svelte.dev/
+ * By Shubham 
+ * optimized for FHD (1080p) display
+ * Repo: github.com/thatshubham/CSS/hn
+ * License: MIT
+/* ==================================================================== */
+
+
+body
+{
+	  background: rgb(36,36,36);
+background: linear-gradient(90deg, rgb(18, 25, 32) 0%,rgb(13, 30, 62) 50%, rgb(9, 19, 28) 100%); 
+	font-family: sans-serif; 
+	color: #d5d5d5 !important;
+	font-size: 1.2em;
+}
+
+a{
+	color: #6d97e8;
+}
+
+h2 a{
+	color: #d2d2d2;
+}
+
+nav.svelte-7jmz2r {
+	border-bottom: 1px solid #000; /* top margin color */
+}
+
+.svelte-12dt5ya {
+	max-width: 90% !important; /* dislike using !important but it didn't work otherwise, maybe a better workaround exists? */
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+.svelte-k6yna4 {
+	flex-basis:18%; /* adjust according to your preferences */
+	margin: 10px 0;
+	line-height: 2;
+}
+
+article.svelte-k6yna4.svelte-k6yna4 {
+	position: relative;
+	margin: 5px 5px;	
+}
+
+article.svelte-k6yna4 {
+	background: rgb(241,241,241);
+	background: black;
+	line-height: 2;
+}
+
+article.svelte-k6yna4:hover {
+	background: rgb(0, 0, 0);
+	box-shadow: 1px 1px 10px #32d5ff6e;
+}
+
+
+[class="comments svelte-101ktgy"] {
+	display: flex; 
+	flex-wrap: wrap !important;
+	justify-content: space-evenly;
+	align-content: flex-start; 
+	align-items: flex-start;
+}
+
+[class="comment svelte-u08pj4"] {
+	flex-basis: 450px; /* adjust according to your preferences */
+	border-bottom-width: 2px;
+	background: rgb(0, 0, 0) !important;
+	padding: 10px !important;
+	margin: 5px 5px;
+}
